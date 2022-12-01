@@ -11,11 +11,11 @@ public class LoginRequest {
     @NotBlank
     private String password;
 
-    private String getUsernameOrEmail(){
+    public String getUsernameOrEmail(){
         return  usernameOrEmail;
     }
 
-    private void setUsernameOrEmail(){
+    public void setUsernameOrEmail(){
         this.usernameOrEmail = usernameOrEmail;
     }
 
