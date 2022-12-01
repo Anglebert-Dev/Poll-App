@@ -1,5 +1,6 @@
 package com.pollapp.Pollapp.config;
 
+import com.pollapp.Pollapp.security.CustomUserDetailsService;
 import com.pollapp.Pollapp.security.JwtAuthenticationEntryPoint;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
